@@ -12,6 +12,11 @@ cargo is the package manager
 - `cargo run` compiles and run.
 - `cargo build` builds the folder (unoptimized).
 - `cargo build --release` builds the folder (optimized).
+- `println!()` prints to console
+- `println("My place is hold by {}", "brackets")` prints
+- `println!("{:?}" 1337, true, "text")` multiple types
 
 ## Notes
-Semi columns are required in rust. 
+Semi columns are required in rust.
+
+Multiple types `println("{:?}")`.
