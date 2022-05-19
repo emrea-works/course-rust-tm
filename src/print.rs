@@ -17,4 +17,7 @@ pub fn run() {
         name = "Mark",
         activity = "Football"
     );
+
+    // Placeholder Traits
+    println!("Binary: {:b}, Hex: {:x}, Octal: {:o}", 10, 10, 10);
 }

@@ -14,4 +14,4 @@ cargo is the package manager
 - `cargo build --release` builds the folder (optimized).
 
 ## Notes
-Semicolumns are required in rust.
+Semi columns are required in rust. 
