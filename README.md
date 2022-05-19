@@ -1,6 +1,6 @@
 # Rust Course
 ## Source
-Traversy Media
+Traversy Media, https://youtu.be/zF34dRivLOw
 
 ## Commands
 `rustc` is the compiler
@@ -20,3 +20,6 @@ cargo is the package manager
 Semi columns are required in rust.
 
 Multiple types `println("{:?}")`.
+
+## TBC
+https://youtu.be/zF34dRivLOw?t=1195
