@@ -2,7 +2,7 @@
 ## Source
 Traversy Media
 
-# Commands
+## Commands
 `rustc` is the compiler
 cargo is the package manager
 - `rustup --version`
@@ -12,3 +12,6 @@ cargo is the package manager
 - `cargo run` compiles and run.
 - `cargo build` builds the folder (unoptimized).
 - `cargo build --release` builds the folder (optimized).
+
+## Notes
+Semicolumns are required in rust.
