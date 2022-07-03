@@ -24,5 +24,13 @@ Semi columns are required in rust.
 
 Multiple types `println("{:?}")`.
 
+### Variables
+- Variables gold primitive data or reference to data.
+- Variables are immutable by default. 
+- Rust is a block-scoped language.
+- const type of variables requires value type decleration.
+- constant vars requires uppercase decleration.
+
+
 ## TBC
 https://youtu.be/zF34dRivLOw?t=1195
