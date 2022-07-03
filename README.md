@@ -31,6 +31,20 @@ Multiple types `println("{:?}")`.
 - const type of variables requires value type decleration.
 - constant vars requires uppercase decleration.
 
+### Types
+**Primitive types**
+  - Integers (Number of bits taken in memory)
+    - unsigned: u8, u16, u32, u64, u128
+    - integers: i8, i16, i32, i64, i128
+  - Floats: f32, f64
+  - Boolean (bool)
+  - Characters (char) (not string, strings are different)
+  - Tuples (lists)
+  - Arrays (lengths are fixed)
+- Single quotes are reserved only for char type and only can get unicode or a single string value (character)
+- Single quoted char types supports emoji glyphs
+
+
 
 ## TBC
 https://youtu.be/zF34dRivLOw?t=1195
