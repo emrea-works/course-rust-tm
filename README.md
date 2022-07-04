@@ -44,7 +44,13 @@ Multiple types `println("{:?}")`.
 - Single quotes are reserved only for char type and only can get unicode or a single string value (character)
 - Single quoted char types supports emoji glyphs
 
+**Strings**
+There are two types of strings
+- Primitive: Immutable, fixed-length string somewhere in memory
+- String: Growable, heap-allocated data structure - Use when you need to modify or own string data.
 
+## Tuples
+...
 
 ## TBC
-https://youtu.be/zF34dRivLOw?t=1195
+https://youtu.be/zF34dRivLOw?t=2682
