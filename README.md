@@ -16,9 +16,8 @@ Traversy Media, https://youtu.be/zF34dRivLOw
 - `cargo build --release` builds the folder (optimized).
 ### Syntax
 - `println!()` prints to console
-- `println("My place is hold by {}", "brackets")` prints
-- `println!("{:?}" 1337, true, "text")` multiple types
-
+- `println("My place is hold by {}", "brackets")` prints in placeholder
+- `println!("{:?}" 1337, true, "text")`, `"{:?}"` is called _debug trait_, prints multiple types
 ## Notes
 Semi columns are required in rust.
 
@@ -50,7 +49,16 @@ There are two types of strings
 - String: Growable, heap-allocated data structure - Use when you need to modify or own string data.
 
 ## Tuples
-...
+- Tuples are group together values of different types
+- Max 12 elements
+
+## Arrays
+- Arrays fixed list where elements are the same data types.
+- Are stack allocated: 
+
+## Vectors 
+- Resizable arrays
+
 
 ## TBC
-https://youtu.be/zF34dRivLOw?t=2682
+https://youtu.be/zF34dRivLOw?t=3615
