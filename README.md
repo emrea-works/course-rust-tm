@@ -59,6 +59,8 @@ There are two types of strings
 ## Vectors 
 - Resizable arrays
 
+## Conditionals
+- Same like C++ or JavaScript, only the statements are naked.
 
 ## TBC
 https://youtu.be/zF34dRivLOw?t=3615
