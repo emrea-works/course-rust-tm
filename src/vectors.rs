@@ -1,3 +1,5 @@
+use std::mem;
+
 pub fn run() {
     let mut numbers: Vec<i32> = vec![1, 2, 3, 4];
 
@@ -18,8 +20,8 @@ pub fn run() {
     // Get array length
     println!("Array length: {}", numbers.len());
 
-    // Arrays are stack allocated
-    println!("Array occupies {} bytes", std::mem::size_of_val(&numbers));
+    // Vectors are stack allocated
+    println!("Vector occupies {} bytes", mem::size_of_val(&numbers));
 
     // Get slice
     let slice: &[i32] = &numbers[0..2];
