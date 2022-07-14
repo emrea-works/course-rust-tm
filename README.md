@@ -54,13 +54,18 @@ There are two types of strings
 
 ## Arrays
 - Arrays fixed list where elements are the same data types.
-- Are stack allocated: 
+- Are stack allocated:
 
 ## Vectors 
 - Resizable arrays
 
 ## Conditionals
 - Same like C++ or JavaScript, only the statements are naked.
+
+## Loops
+- While conditions naked, just like in if conditionals
+- For statement is typical for ... in ... type, without paranthesis, has a unique way of statement with dots
+  - for _x in 0..10 means loop from 0 till to 10.
 
 ## TBC
 https://youtu.be/zF34dRivLOw?t=3615
