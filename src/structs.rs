@@ -20,6 +20,11 @@ impl Person {
             last_name: last.to_string(),
         }
     }
+
+    // Get full name
+    fn full_name(&self) -> String {
+        format!("{} {}", self.first_name, self.last_name)
+    }
 }
 
 pub fn run() {
@@ -40,5 +45,6 @@ pub fn run() {
     // println!("Color: {} {} {}", c.0, c.1, c.2);
 
     let mut p = Person::new("John", "Doe");
-    println!("Person: {} {}", p.first_name, p.last_name);
+    // println!("Person: {} {}", p.first_name, p.last_name);
+    println!("Person Full Name: {}", p.full_name());
 }
