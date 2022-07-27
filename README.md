@@ -73,5 +73,8 @@ There are two types of strings
 ## Functions
 - Closure functions are helping much when quick returns out of scopes
 
+## Pointers
+- Like in C++, points to a resource in memory directly.
+
 ## TBC
 https://youtu.be/zF34dRivLOw?t=3615
