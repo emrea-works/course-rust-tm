@@ -22,6 +22,7 @@ Cargo is the **package manager**
 - `println!("{:?}" 1337, true, "text")`, `"{:?}"` is called _debug trait_, prints multiple types
 ## Notes
 Semi columns are required in rust.
+main.rs is the entry point. 
 
 Multiple types `println("{:?}")`.
 
@@ -68,6 +69,9 @@ There are two types of strings
 - While conditions naked, just like in if conditionals
 - For statement is typical for ... in ... type, without paranthesis, has a unique way of statement with dots
   - for _x in 0..10 means loop from 0 till to 10.
+
+## Functions
+- Closure functions are helping much when quick returns out of scopes
 
 ## TBC
 https://youtu.be/zF34dRivLOw?t=3615
