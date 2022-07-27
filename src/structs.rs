@@ -11,5 +11,7 @@ pub fn run() {
         blue: 0,
     };
 
+    c.red = 200;
+
     println!("Color: {} {} {}", c.red, c.green, c.blue);
 }
