@@ -5,7 +5,7 @@ Traversy Media, https://youtu.be/zF34dRivLOw
 ## Commands
 - `rustc` is the compiler, works without cargo
 - `rustup --version`
-- `rustup update`
+- `rustup update` to see if there is updates
 - `rustc --version`
 - `rustc hello.rs` compiles hello.rs code.
 - `./target./debug/rust_sandbox` runs compiled file as a default name.
@@ -75,6 +75,12 @@ There are two types of strings
 
 ## Pointers
 - Like in C++, points to a resource in memory directly.
+
+## Structs
+- ``impl`` works like classes in C++ or Java, has constructor, methods in its scope.
+
+## Enums
+- ``match`` word being used in the function is a typical switch conditional.
 
 ## TBC
 https://youtu.be/zF34dRivLOw?t=3615

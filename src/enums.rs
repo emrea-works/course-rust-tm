@@ -23,9 +23,17 @@ pub fn run() {
     let avatar2 = Movement::Down;
     let avatar3 = Movement::Left;
     let avatar4 = Movement::Right;
-
     move_avatar(avatar1);
     move_avatar(avatar2);
     move_avatar(avatar3);
     move_avatar(avatar4);
+    // Extra Study
+    // `match` word
+    let x = 3;
+    match x {
+        1 => println!("one"),
+        2 => println!("two"),
+        3 => println!("three"),
+        _ => println!("anything"),
+    }
 }
