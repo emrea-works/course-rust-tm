@@ -84,7 +84,3 @@ There are two types of strings
 
 ## CLI Example
 - args function described in cli.rs file gets (collects) arguments of the first executable, that means the compiled program itself first.
-
-
-## TBC
-https://youtu.be/zF34dRivLOw?t=3615
