@@ -82,5 +82,9 @@ There are two types of strings
 ## Enums
 - ``match`` word being used in the function is a typical switch conditional.
 
+## CLI Example
+- args function described in cli.rs file gets (collects) arguments of the first executable, that means the compiled program itself first.
+
+
 ## TBC
 https://youtu.be/zF34dRivLOw?t=3615
