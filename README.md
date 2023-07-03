@@ -2,6 +2,8 @@
 ## Source
 Traversy Media, https://youtu.be/zF34dRivLOw
 
+Teh course is finalized and the repository is archived.
+
 ## Commands
 - `rustc` is the compiler, works without cargo
 - `rustup --version`
